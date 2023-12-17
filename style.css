@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+}
+body{
+    background: url(images/background.png) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+#thenav{
+    color: blueviolet;
+}
+.navbar{
+    background: transparent;
+}
+.navbar ul li .nav-item{
+    color: white;
+}
