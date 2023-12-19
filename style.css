@@ -4,14 +4,33 @@
 body{
     background: url(images/background.png) no-repeat center center fixed;
     background-size: cover;
-    
 }
 #thenav{
-    color: blueviolet;
+    background-color: transparent;
 }
-.navbar{
-    background: transparent;
+#thenav img{
+    margin-left: 70px;
 }
-.navbar ul li .nav-item{
-    color: white;
+.header{
+    position: fixed;
+    margin-top: 140px;
+    margin-left: 80px;
+}
+.header h1{
+    font-weight: 600;
+    font-size: 3em;
+    color: rgb(89, 48, 23);
+}
+.header button{
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 5px 40px 5px 40px;
+    border: none;
+    color: rgb(35, 84, 177);
+    cursor: pointer;
+    
+}
+.header button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.472);
+    background-color: rgb(223, 188, 145);
 }
