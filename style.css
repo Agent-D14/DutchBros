@@ -1,18 +1,18 @@
 *{
     padding: 0;
 }
-body{
-    background: url(images/background.png) no-repeat center center fixed;
-    background-size: cover;
-}
+/*body{
+    background: url(images/background.png) no-repeat center center;
+    background-size: 90%;
+    position: absolute;
+}*/
 #thenav{
     background-color: transparent;
 }
 #thenav img{
     margin-left: 70px;
 }
-.header{
-    position: fixed;
+/*.header{
     margin-top: 140px;
     margin-left: 80px;
 }
@@ -33,4 +33,101 @@ body{
 .header button:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.472);
     background-color: rgb(223, 188, 145);
+}*/
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.hero img{
+    width: 80vw;
+    height: auto;
+    top: -20px;
+}
+.hero .info{
+    margin: 50px;
+}
+.hero .info h1{
+    font-size: 3.6em;
+}
+.coffee-section{
+    position: relative;
+    top: 900px;
+    left: 20px;
+    text-align: center;
+}
+.coffee-section h1{
+    color: #156299;
+    font-weight: 600;
+    font-size: 5em;
+    margin-top: 70px;
+}
+.coffee-section button{
+    background-color: #ea7319;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.coffee-section button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.472);
+    background-color: #f3a569;
+}
+.options{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.options h2{
+    color: #156299;
+}
+.options .coffee{
+    margin: 70px;
+}
+.promotions{
+    background-color: #156299;
+    position: relative;
+    top: 950px;
+    left: 0px;
+    width: 100vw;
+}
+.promo-tiles{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.promo-tiles .tile{
+    margin: 50px;
+}
+.promo-tiles .tile h2{
+    color: white;
+    font-weight: 700;
+    font-size: 2.8em;
+}
+.promo-tiles .tile img{
+    border: solid 10px #f3a569;
+    border-radius: 20px;
+    width: 450px;
+    height: 480px;
+    margin: 20px;
+}
+.promo-tiles .tile h4{
+    color: white;
+}
+.promo-tiles .tile button{
+    background-color: #f9e749;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.promo-tiles .tile button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.472);
+    background-color: #f3a569;
 }
